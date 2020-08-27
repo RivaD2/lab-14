@@ -22,11 +22,11 @@ Actual time needed to complete: 25min
 
 Estimate of time needed to complete: 1hr
 
-Start time: 2:00pm 8/27/2019
+Start time: 2:45:00pm 8/27/2019
 
 Finish time: 3:15pm
 
-Actual time needed to complete: 1hr15min
+Actual time needed to complete: 30min
 
 
 
