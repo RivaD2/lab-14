@@ -1,7 +1,7 @@
 # lab-14
 This lab involves seeding a database, then executing a series of commands to normalize data into two tables: books and authors. Using SQL I  normalized data and remove duplications.
 
-# Number and name of feature: Database Setup
+# Feature 1: Database Setup
 
 Estimate of time needed to complete: 30min
 
@@ -12,7 +12,7 @@ Finish time: 11:45am
 Actual time needed to complete: 25min
 
 ------------
-# Number and name of feature: Database Migration
+# Feature 2: Database Migration
 * CREATE TABLE AUTHORS (id SERIAL PRIMARY KEY, name VARCHAR(255));
 * INSERT INTO authors(name) SELECT DISTINCT author FROM books;
 * ALTER TABLE books ADD COLUMN author_id INT;
