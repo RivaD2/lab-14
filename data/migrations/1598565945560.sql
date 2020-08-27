@@ -13,3 +13,5 @@ UPDATE books SET author_id=author.id FROM (SELECT * FROM authors) AS author WHER
 
 ALTER TABLE books 
 DROP COLUMN author;
+
+ALTER TABLE books ADD CONSTRAINT fk_authors FOREIGN KEY (author_id) REFERENCES authors(id);
